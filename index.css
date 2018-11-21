@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main{
+    flex: 1 0 auto;
+}
+.filtro-busca{
+    margin-top: 15px;
+}
+.container-modal{
+    display: flex;
+    justify-content: center;
+}
+.input-modal{
+    width: 400px;
+}
+#btn-modal{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
