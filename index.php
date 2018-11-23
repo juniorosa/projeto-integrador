@@ -17,7 +17,7 @@
 
 <body>
     <header>
-        <div class="navbar-fixed">
+        <div id="inicio" class="navbar-fixed">
             <nav class="green darken-1 z-depth-2">
                 <div class="container">
                     <div class="nav-wrapper">
@@ -25,7 +25,7 @@
                         <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="large material-icons">menu</i></a>
                         <ul id="nav-mobile" class="right hide-on-med-and-down">
                             <li><a class="modal-trigger" href="#modal2">Anunciar vaga</a></li>
-                            <li><a href="#" class="waves-effect btn green darken-2">Login<i class="material-icons right">account_circle</i></a></li>
+                            <li><a href="./src/view/login.php" class="waves-effect btn green darken-2">Login<i class="material-icons right">account_circle</i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
         <!-- menu mobile -->
         <ul id="mobile-menu" class="side-nav">
             <li><a class="modal-trigger" href="#modal2">Anunciar vaga</a></li>
-            <li><a href="#">Login</a></li>
+            <li><a href="./src/view/login.php">Login</a></li>
     
         </ul>
     </header>
@@ -112,7 +112,7 @@
         <div class="container">
             <div class="row">
                 <div class="col s12 m4 l4">
-                    <div class="card z-depth-4 hoverable">
+                    <div class="card medium z-depth-4 hoverable">
                         <div class="card-content">
                             <span class="card-title">Estágio</span>
                             <p>Cód. vaga: 008</p>
@@ -132,7 +132,7 @@
                 </div>
         
                 <div class="col s12 m4 l4">
-                    <div class="card z-depth-4 hoverable">
+                    <div class="card medium z-depth-4 hoverable">
                         <div class="card-content">
                             <span class="card-title">Estágio</span>
                             <p>Cód. vaga: 007</p>
@@ -152,7 +152,7 @@
                 </div>
         
                 <div class="col s12 m4 l4">
-                    <div class="card z-depth-4 hoverable">
+                    <div class="card medium z-depth-4 hoverable">
                         <div class="card-content">
                             <span class="card-title">Efetivo (CLT)</span>
 							<p>Cód. vaga: 006</p>
@@ -172,7 +172,7 @@
                 </div>
         
                 <div class="col s12 m4 l4">
-                    <div class="card z-depth-4 hoverable">
+                    <div class="card medium z-depth-4 hoverable">
                         <div class="card-content">
                             <span class="card-title">Efetivo (CLT)</span>
                             <p>Cód. vaga: 005</p>
@@ -192,7 +192,7 @@
                 </div>
         
                 <div class="col s12 m4 l4">
-                    <div class="card z-depth-4 hoverable">
+                    <div class="card medium z-depth-4 hoverable">
                         <div class="card-content">
                             <span class="card-title">Estágio</span>
                             <p>Cód. vaga: 004</p>
@@ -212,7 +212,7 @@
                 </div>
         
                 <div class="col s12 m4 l4">
-                    <div class="card z-depth-4 hoverable">
+                    <div class="card medium z-depth-4 hoverable">
                         <div class="card-content">
                             <span class="card-title">Efetivo (CLT)</span>
                             <p>Cód. vaga: 003</p>
@@ -232,7 +232,7 @@
                 </div>
         
                 <div class="col s12 m4 l4">
-                    <div class="card z-depth-4 hoverable">
+                    <div class="card medium z-depth-4 hoverable">
                         <div class="card-content">
                             <span class="card-title">Efetivo (CLT)</span>
                             <p>Cód. vaga: 002</p>
@@ -252,7 +252,7 @@
                 </div>
         
                 <div class="col s12 m4 l4">
-                    <div class="card z-depth-4 hoverable">
+                    <div class="card medium z-depth-4 hoverable">
                         <div class="card-content">
                             <span class="card-title">Prestador de Serviços</span>
 							<p>Cód. vaga: 001</p>
@@ -274,10 +274,16 @@
             </div>
         </div>
     </main>
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large green" href="#inicio">
+            <i class="large material-icons">arrow_upward</i>
+        </a>
+    </div>
     
     <?php require "src/view/includes/footer.inc.php"; ?>
-    <?php require "src/view/includes/modal.inc.php" ?>
-    <?php require "src/view/includes/modal2.inc.php" ?>
+    <?php require "src/view/includes/modal-info.inc.php" ?>
+    <?php require "src/view/includes/modal-anuncio.inc.php" ?>
     
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>

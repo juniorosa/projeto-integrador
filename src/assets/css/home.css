@@ -1,0 +1,29 @@
+.circle{
+    background: no-repeat center;
+    background-size: cover;
+}
+  header, main, footer {
+    padding-left: 0;
+}
+.white img{ margin-right: 0;}
+ 
+@media screen and (min-width : 992px) {
+    header, main, footer {
+        padding-left: 300px;
+      }
+    .white img { margin-right: 300px;}
+
+}
+.button-collapse i { margin-top: 10px; }
+#mobile-menu a{ color: rgb(2, 30, 58);}
+#mobile-menu i{ color: rgb(2, 30, 58);}
+
+.white {
+	height: 70px;
+}
+.white a { color: #104E8B;}
+.white img {
+	margin-top: 5px;
+	width: 199px;
+    height: 60px;
+}      

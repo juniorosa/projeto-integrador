@@ -27,6 +27,8 @@ session_start();
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="../../index.css">
+    <link rel="stylesheet" href="../assets/css/home.css">
     
    <!-- <link rel="icon" href="../images/favicon.jpg"> -->
     <title>Home</title>
@@ -43,14 +45,14 @@ session_start();
         <li>
             <div class="user-view">
                 <div class="background">
-                    <img src="../images/fundo.jpg">
+                    <img src="../assets/images/fundo-sidenav.jpg">
                 </div>
-                <a id="alterar-foto" href="#"><div class="circle" style="background-image: url('../images/fotos-user/<?php echo $foto;?>');"></div></a>
-                <a href="#!name"><span class="white-text name"><?php echo $nome; ?></span></a>
-                <a href="#!email"><span class="white-text email"><?php echo $email; ?></span></a> 
+                <a id="alterar-foto" href="#"><div class="circle" style="background-image: url('../assets/images/fotos-user/usuario.png');"></div></a>
+                <a href="#!name"><span class="white-text name">Nome do usuario</span></a>
+                <a href="#!email"><span class="white-text email">email@teste.com</span></a> 
             </div>
         </li>
-        <li><a href="../procedimentos/login/logout.php"><i class="material-icons">exit_to_app</i>Sair</a></li>
+        <li><a href="../scripts/logout.php"><i class="material-icons">exit_to_app</i>Sair</a></li>
         <li><a class="waves-effect" href="home.php"> <i class="material-icons">home</i>Início</a></li>
         <li><div class="divider"></div></li>
         <li><a class="subheader">opções</a></li>

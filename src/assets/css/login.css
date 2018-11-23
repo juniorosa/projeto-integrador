@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+    html, body{
+        min-height: 100%;
+    }
+   
+    form{
+        /*
+        width: 50%;*/
+        margin: 30px auto;
+        margin-top: 18px;
+        padding: 2% 5%; 
+        background: #fff;
+        opacity: 0.90;
+    }
+    #logo{
+        width: 210px !important;
+        height: 60px !important;
+    }
+    .logo-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 75px
+    }
+    input{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10px;
+        border: 2px solid #bdbdbd;
+        border-radius: 5px;
+        padding: 2% 1%;
+        background: #fff;
+    }
+    #login{ margin-top: 30px;}
+    h4{
+        text-align: center;
+        color: #2e7d32;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+       
+    }
+    #btn-login{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 15px;
+        text-transform: capitalize;
+        font-weight: bolder;
+        border-radius: 5px;
+    }
+    .switch{
+        margin-left: 15%;
+    }
+    /* checkbox */
+    .switch label input[type=checkbox]:checked+.lever {
+        background-color: #2e7d32;
+    }
+    .switch label input[type=checkbox]:checked+.lever:after {
+        background-color: #ddd;
+    }
+    #p1{
+        margin-top: 80px;
+        color: #616161;
+       
+    }
+    
+    :-moz-placeholder { /* Firefox 18- */
+    color: #616161;  
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+    color: #616161;  
+    }
+
+    :-ms-input-placeholder {  
+    color: #616161;  
+    }
+    
+    @media screen and (min-width: 768px){
+    body{
+        
+            background-image: url("../images/background.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+      form{
+        width: 60%;
+        margin: 30px auto;
+        margin-top: 70px;
+        padding: 2% 5%; 
+        background: #fff;
+    }
+        #login{ margin-top: 30px;}
+        input{
+            width: 70%;
+            margin-left: 15%;
+            margin-top: 10px;
+            height: 30px;
+            border: 2px solid #bdbdbd ;
+            border-radius: 5px;
+            padding: 4% 2%;
+        }
+        #btn-login{
+            width: 70%;
+            margin-left: 15%;
+            margin-top: 15px;
+            text-transform: capitalize;
+            border-radius: 5px;
+        }
+    }
+
+    @media screen and (min-width: 1400px){
+        form{
+            margin-top: 120px;
+        }
+    }
