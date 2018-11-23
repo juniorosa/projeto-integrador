@@ -1,34 +1,21 @@
+// Função para fechar a Side Nav ao selecionar um link
+function sideNavClose(){
+    var tamanhoTela = window.innerWidth;
+    if(tamanhoTela <= 990){
+        $('.button-collapse').sideNav('hide');
+    }
+}
+
 //tela de alterar foto
 $('#alterar-foto').click(function(){
     $('main').load('viewAlterarFoto.php');
-});
-//tela de alterar OS
-$('#alterar-os').click(function(){
-    $('main').load('viewAlterarOS.php');
-});
-//tela de alterar clientes
-$('#alterar-clientes').click(function(){
-    $('main').load('viewAlterarClientes.php');
-});
-//tela de gerenciamento de datasheet
-$('#gerenciar-ds').click(function(){
-    $('#gerenciar-ds').html('<i class="fa fa-spinner fa-spin"></i>');
-    $('main').load('viewListarDatasheet.php');
-    //gira o spinner por 2 segundos
-    setTimeout(function(){
-        $('#gerenciar-ds').html('<i class="material-icons">insert_drive_file</i>Gerenciar Datasheets');
-    }, 2000);
-    
-});
-
-//tela de gerenciamento de imagens
-$('#gerenciar-img').click(function(){
-    $('main').load('viewGerenciarImagensPrincipal.php');
+    sideNavClose()
 });
 
 //tela adicionar usuarios
 $('#add-usuario').click(function(){
     $('main').load('viewAddUsuarios.php');
+    sideNavClose()
 });
 
 //tela remover usuario
@@ -39,14 +26,17 @@ $('#remove-usuario').click(function(){
     setTimeout(function(){
         $('#remove-usuario').html('<i class="material-icons">delete</i>Remover Usuario');
     }, 2000);
+    sideNavClose()
 });
 
-//tela adicionar senha
+//tela alterar senha
 $('#altera-senha').click(function(){
     $('main').load('viewAlteraSenha.php');
+    sideNavClose()
 });
 
-//tela adicionar login
+//tela alterar login
 $('#altera-login').click(function(){
     $('main').load('viewAlteraLogin.php');
+    sideNavClose()
 });
