@@ -41,9 +41,7 @@
                 </div>
 
             </div>
-            <button class="btn btn-form waves-effect waves-light green darken-3" type="submit" name="cadastrar-usuario">Cadastrar
-                <i class="material-icons right">send</i>
-            </button>
+            <button class="btn btn-form waves-effect waves-light green darken-3" type="submit" name="cadastrar-usuario">Cadastrar</button>
         </form>
     </div>
 </div>

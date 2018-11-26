@@ -35,3 +35,8 @@ $('#altera-login').click(function(){
     $('main').load('usuario/viewAlteraLogin.php');
     sideNavClose()
 });
+
+$('#add-vaga').click(function(){
+    $('main').load('vagas/viewAddVaga.php');
+    sideNavClose()
+});

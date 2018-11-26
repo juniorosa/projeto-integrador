@@ -11,9 +11,7 @@
                     </div>
 
                 </div>
-                <button class="btn btn-form waves-effect waves-light green darken-3" type="submit" name="alterar-login">Alterar
-                    <i class="material-icons right">edit</i>
-                </button>
+                <button class="btn btn-form waves-effect waves-light green darken-3" type="submit" name="alterar-login">Alterar</button>
             </form>
         </div>
     </div>

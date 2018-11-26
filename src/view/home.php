@@ -86,6 +86,33 @@ session_start();
     </ul>
     <!-- conteudo principal -->
     <main>
+        <h1 class="center-align light">Últimas vagas cadastradas</h1>
+        <table class="bordered highlight">
+            <thead>
+            <tr>
+                <th>Cod</th>
+                <th>Titulo</th>
+                <th>Tipo de contrato</th>
+                <th>Cursos relacionados</th>
+                <th>Valor</th>
+                <th>Cidade</th>
+                <th>Data</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>003</td>
+                <td>Suporte técnico</td>
+                <td>Estagio</td>
+                <td>Superior em Gestão de Tecnologia da informação, Tecnico de Informática</td>
+                <td>R$600,00</td>
+                <td>Florianopolis</td>
+                <td>11/10/18</td>
+            </tr>
+            
+            </tbody>
+        </table>
       
     </main>
     
