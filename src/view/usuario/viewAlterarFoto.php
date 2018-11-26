@@ -16,10 +16,10 @@
                     </div>
 
                 </div>
-                <button class="btn btn-modal modal-close waves-effect waves-light blue darken-4" type="submit" name="btn-alterar-foto">Alterar
+                <button class="btn btn-form waves-effect waves-light green darken-3" type="submit" name="btn-alterar-foto">Alterar
                     <i class="material-icons right">send</i>
                 </button>
-                <button class="btn btn-modal modal-close waves-effect waves-light blue darken-4" type="submit" name="btn-excluir-foto">Excluir atual
+                <button class="btn btn-form waves-effect waves-light green darken-3" type="submit" name="btn-excluir-foto">Excluir atual
                     <i class="material-icons right">delete</i>
                 </button>
             </form>

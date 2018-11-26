@@ -8,35 +8,30 @@ function sideNavClose(){
 
 //tela de alterar foto
 $('#alterar-foto').click(function(){
-    $('main').load('viewAlterarFoto.php');
+    $('main').load('usuario/viewAlterarFoto.php');
     sideNavClose()
 });
 
 //tela adicionar usuarios
 $('#add-usuario').click(function(){
-    $('main').load('viewAddUsuarios.php');
+    $('main').load('usuario/viewAddUsuarios.php');
     sideNavClose()
 });
 
 //tela remover usuario
 $('#remove-usuario').click(function(){
-    $('#remove-usuario').html('<i class="fa fa-spinner fa-spin"></i>');
-    $('main').load('viewRemoveUsuario.php');
-    //gira o spinner por 2 segundos
-    setTimeout(function(){
-        $('#remove-usuario').html('<i class="material-icons">delete</i>Remover Usuario');
-    }, 2000);
+    $('main').load('usuario/viewRemoveUsuario.php');
     sideNavClose()
 });
 
 //tela alterar senha
 $('#altera-senha').click(function(){
-    $('main').load('viewAlteraSenha.php');
+    $('main').load('usuario/viewAlteraSenha.php');
     sideNavClose()
 });
 
 //tela alterar login
 $('#altera-login').click(function(){
-    $('main').load('viewAlteraLogin.php');
+    $('main').load('usuario/viewAlteraLogin.php');
     sideNavClose()
 });

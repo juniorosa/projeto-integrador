@@ -1,0 +1,12 @@
+.alinhar-view {
+    display: flex;
+    margin-top: 35px;
+    flex-direction: column;
+}
+.btn-form {
+    width: 300px;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
