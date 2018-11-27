@@ -36,7 +36,27 @@ $('#altera-login').click(function(){
     sideNavClose()
 });
 
+//tela de adicionar vagas
 $('#add-vaga').click(function(){
     $('main').load('vagas/viewAddVaga.php');
     sideNavClose()
 });
+
+// tela de alterar/remover vagas
+$('#opc-vaga').click(function(){
+    $('main').load('vagas/viewOpcVaga.php');
+    sideNavClose()
+});
+
+//tela de adicionar curso
+$('#add-curso').click(function(){
+    $('main').load('cursos/viewAddCurso.php');
+    sideNavClose()
+});
+
+$('#opc-curso').click(function(){
+    $('main').load('cursos/viewOpcCurso.php');
+    sideNavClose()
+});
+
+

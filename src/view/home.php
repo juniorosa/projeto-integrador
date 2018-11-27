@@ -56,7 +56,7 @@ session_start();
         <li><a href="../scripts/logout.php"><i class="material-icons">exit_to_app</i>Sair</a></li>
         <li><a class="waves-effect" href="home.php"> <i class="material-icons">home</i>Início</a></li>
         <li><div class="divider"></div></li>
-        <li><a class="subheader">opções</a></li>
+        <li><a class="subheader">Opções</a></li>
         <!-- Dropdown Trigger -->
         <li><a class='dropdown-button' href='#' data-activates='usuario-config'><i class="material-icons">build</i>Configurações de usuario</a></li>
         <!-- Dropdown estrutura -->
@@ -72,8 +72,7 @@ session_start();
         <!-- Dropdown estrutura -->
         <ul id='menu-vagas' class='dropdown-content'>
             <li><a id="add-vaga" class="waves-effect" href="#"><i class="material-icons">add</i>Adicionar Vaga</a></li>
-            <li><a id="remove-vaga" class="waves-effect" href="#"><i class="material-icons">delete</i>Remover Vaga</a></li>
-            <li><a id="altera-vaga" class="waves-effect" href="#"><i class="material-icons">edit</i>Alterar Vaga</a></li>
+            <li><a id="opc-vaga" class="waves-effect" href="#"><i class="material-icons">edit</i>Alterar/remover Vaga</a></li>
         </ul>
 
         <!-- Dropdown Trigger -->
@@ -81,13 +80,13 @@ session_start();
         <!-- Dropdown estrutura -->
         <ul id='menu-cursos' class='dropdown-content'>
             <li><a id="add-curso" class="waves-effect" href="#"><i class="material-icons">add</i>Adicionar Curso</a></li>
-            <li><a id="altera-curso" class="waves-effect" href="#"><i class="material-icons">edit</i>Alterar Curso</a></li>
+            <li><a id="opc-curso" class="waves-effect" href="#"><i class="material-icons">edit</i>Alterar Curso</a></li>
         </ul>
     </ul>
     <!-- conteudo principal -->
     <main>
         <h1 class="center-align light">Últimas vagas cadastradas</h1>
-        <table class="bordered highlight">
+        <table class="bordered highlight centered">
             <thead>
             <tr>
                 <th>Cod</th>
@@ -117,6 +116,7 @@ session_start();
     </main>
     
     <?php
+        require "includes/modalExcluirVaga.inc.php";
         require "includes/footer.inc.php"; 
     ?> 
     <script src="../scripts/paginas.js"></script> 
